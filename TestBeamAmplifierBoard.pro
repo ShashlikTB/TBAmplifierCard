@@ -1,8 +1,53 @@
-update=Wed 18 Jun 2014 12:49:37 PM EDT
+update=Mon 23 Jun 2014 03:10:23 PM EDT
 version=1
-last_client=pcbnew
+last_client=eeschema
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[pcbnew]
+version=1
+LastNetListRead=TestBeamAmplifierBoard.net
+UseCmpFile=1
+PadDrill="    1.400000"
+PadDrillOvalY="    1.400000"
+PadSizeH="    1.400000"
+PadSizeV="    1.400000"
+PcbTextSizeV="    1.500000"
+PcbTextSizeH="    1.500000"
+PcbTextThickness="    0.300000"
+ModuleTextSizeV="    1.000000"
+ModuleTextSizeH="    1.000000"
+ModuleTextSizeThickness="    0.150000"
+SolderMaskClearance="    0.000000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.200000"
+BoardOutlineThickness="    0.100000"
+ModuleOutlineThickness="    0.150000"
+[pcbnew/libraries]
+LibDir=
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=smd_capacitors
+LibName7=smd_resistors
+LibName8=smd_crystal&oscillator
+LibName9=smd_dil
+LibName10=smd_transistors
+LibName11=libcms
+LibName12=display
+LibName13=led
+LibName14=dip_sockets
+LibName15=pga_sockets
+LibName16=valves
+LibName17=/home/tba9h/ElectronicsProjects/KiCadComponents/sma_connectors/modules/sma
+LibName18=/home/tba9h/ElectronicsProjects/KiCadComponents/SurfaceMount.pretty/SurfaceMount
+LibName19=/home/tba9h/ElectronicsProjects/KiCadComponents/SAMTEC-HSEC8/Samtec-HSEC8
 [eeschema]
 version=1
 LibDir=../KiCadComponents
@@ -47,49 +92,5 @@ LibName32=mar-1sm+
 LibName33=ADCH-80
 LibName34=hsec8-150
 LibName35=sma_connectors/library/sma
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[pcbnew]
-version=1
-LastNetListRead=TestBeamAmplifierBoard.net
-UseCmpFile=1
-PadDrill="    0.600000"
-PadDrillOvalY="    0.600000"
-PadSizeH="    1.500000"
-PadSizeV="    1.500000"
-PcbTextSizeV="    1.500000"
-PcbTextSizeH="    1.500000"
-PcbTextThickness="    0.300000"
-ModuleTextSizeV="    1.000000"
-ModuleTextSizeH="    1.000000"
-ModuleTextSizeThickness="    0.150000"
-SolderMaskClearance="    0.000000"
-SolderMaskMinWidth="    0.000000"
-DrawSegmentWidth="    0.200000"
-BoardOutlineThickness="    0.100000"
-ModuleOutlineThickness="    0.150000"
-[pcbnew/libraries]
-LibDir=
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=smd_capacitors
-LibName7=smd_resistors
-LibName8=smd_crystal&oscillator
-LibName9=smd_dil
-LibName10=smd_transistors
-LibName11=libcms
-LibName12=display
-LibName13=led
-LibName14=dip_sockets
-LibName15=pga_sockets
-LibName16=valves
-LibName17=/home/tba9h/ElectronicsProjects/KiCadComponents/hsec8-150-sm
-LibName18=/home/tba9h/ElectronicsProjects/KiCadComponents/ADCH-80
-LibName19=/home/tba9h/ElectronicsProjects/KiCadComponents/MAR-1SM+
-LibName20=/home/tba9h/ElectronicsProjects/KiCadComponents/sma_connectors/modules/sma
+LibName36=comm_p
+LibName37=comm_n
