@@ -43,7 +43,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title ""
-Date "2 jul 2014"
+Date "5 jul 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -419,9 +419,6 @@ Text Label 4050 3350 0    60   ~ 0
 N6
 Text Label 4050 3450 0    60   ~ 0
 P6
-NoConn ~ 1800 2550
-NoConn ~ 1800 3150
-NoConn ~ 1800 3450
 Text Label 4050 3650 0    60   ~ 0
 N9
 Text Label 4050 3750 0    60   ~ 0
@@ -615,20 +612,12 @@ Text Label 2950 7250 0    60   ~ 0
 TMP
 Text Label 1700 6950 0    60   ~ 0
 N30
-Text Label 1700 7050 0    60   ~ 0
-P30
 Text Label 1700 6650 0    60   ~ 0
 N28
-Text Label 1700 6750 0    60   ~ 0
-P28
 Text Label 1700 6350 0    60   ~ 0
 N27
-Text Label 1700 6450 0    60   ~ 0
-P27
 Text Label 1700 6050 0    60   ~ 0
 N25
-Text Label 1700 6150 0    60   ~ 0
-P25
 Text Label 1700 5750 0    60   ~ 0
 N22
 Text Label 1700 5850 0    60   ~ 0
@@ -670,14 +659,13 @@ N3
 Text Label 1700 2450 0    60   ~ 0
 N1
 Text Label 9000 1600 0    60   ~ 0
-P1
+P25
 Text Label 9000 1750 0    60   ~ 0
-P3
+P27
 Text Label 9000 1900 0    60   ~ 0
-P4
+P28
 Text Label 9000 2050 0    60   ~ 0
-P6
-NoConn ~ 1800 2850
+P30
 $Comp
 L COMM_N #PWR016
 U 1 1 53B413BB
@@ -1238,19 +1226,11 @@ Wire Wire Line
 Wire Wire Line
 	1800 6050 1700 6050
 Wire Wire Line
-	1700 6150 1800 6150
-Wire Wire Line
 	1800 6350 1700 6350
-Wire Wire Line
-	1700 6450 1800 6450
 Wire Wire Line
 	1700 6650 1800 6650
 Wire Wire Line
-	1800 6750 1700 6750
-Wire Wire Line
 	1700 6950 1800 6950
-Wire Wire Line
-	1800 7050 1700 7050
 Wire Wire Line
 	2950 7050 2900 7050
 Wire Wire Line
@@ -1318,4 +1298,24 @@ Wire Wire Line
 Wire Wire Line
 	2950 7250 2900 7250
 Connection ~ 3950 7350
+Text Label 1700 2850 0    60   ~ 0
+P3
+Wire Wire Line
+	1700 2850 1800 2850
+Text Label 1700 2550 0    60   ~ 0
+P1
+Wire Wire Line
+	1700 2550 1800 2550
+Text Label 1700 3150 0    60   ~ 0
+P4
+Wire Wire Line
+	1700 3150 1800 3150
+Text Label 1700 3450 0    60   ~ 0
+P6
+Wire Wire Line
+	1700 3450 1800 3450
+NoConn ~ 1800 7050
+NoConn ~ 1800 6750
+NoConn ~ 1800 6450
+NoConn ~ 1800 6150
 $EndSCHEMATC
